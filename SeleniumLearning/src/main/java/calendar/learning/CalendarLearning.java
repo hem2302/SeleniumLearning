@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CalendarLearning {
 	public static void main(String[] args) throws InterruptedException {
-		// Select the date with JavascriptExecutor
+		// Select the date with JavascriptExecutor...
 
 		System.out.println("*** SELECT THE DATE WITH JavascriptExecutor ***");
 
