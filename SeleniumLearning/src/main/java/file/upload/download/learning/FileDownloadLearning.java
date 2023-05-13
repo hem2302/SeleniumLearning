@@ -39,5 +39,8 @@ public class FileDownloadLearning {
 			System.out.println("File is successfully downloaded and found");
 		}
 
+		if(fileLocation1.delete()) {
+			System.out.println("file deleted");
+		}
 	}
 }
