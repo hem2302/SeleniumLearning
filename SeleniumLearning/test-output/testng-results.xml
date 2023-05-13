@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-14T00:54:25 BST" name="Suite" finished-at="2023-05-14T00:54:43 BST" duration-ms="18343">
+    <groups>
+    </groups>
+    <test started-at="2023-05-14T00:54:25 BST" name="Test" finished-at="2023-05-14T00:54:43 BST" duration-ms="18343">
+      <class name="selenium.grid.learning.SeleniumGridLearning">
+        <test-method signature="GridLearningChrome()[pri:0, instance:selenium.grid.learning.SeleniumGridLearning@2af004b]" started-at="2023-05-14T00:54:25 BST" name="GridLearningChrome" finished-at="2023-05-14T00:54:39 BST" duration-ms="13976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridLearningChrome -->
+      </class> <!-- selenium.grid.learning.SeleniumGridLearning -->
+      <class name="selenium.grid.learning.SeleniumGridLearningAnotherNode">
+        <test-method signature="GridLearningFirefox()[pri:0, instance:selenium.grid.learning.SeleniumGridLearningAnotherNode@663c9e7a]" started-at="2023-05-14T00:54:25 BST" name="GridLearningFirefox" finished-at="2023-05-14T00:54:43 BST" duration-ms="18303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridLearningFirefox -->
+      </class> <!-- selenium.grid.learning.SeleniumGridLearningAnotherNode -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
