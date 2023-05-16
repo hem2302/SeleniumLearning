@@ -1,23 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-14T00:54:25 BST" name="Suite" finished-at="2023-05-14T00:54:43 BST" duration-ms="18343">
+  <suite started-at="2023-05-16T02:24:46 BST" name="Default suite" finished-at="2023-05-16T02:24:46 BST" duration-ms="361">
     <groups>
     </groups>
-    <test started-at="2023-05-14T00:54:25 BST" name="Test" finished-at="2023-05-14T00:54:43 BST" duration-ms="18343">
-      <class name="selenium.grid.learning.SeleniumGridLearning">
-        <test-method signature="GridLearningChrome()[pri:0, instance:selenium.grid.learning.SeleniumGridLearning@2af004b]" started-at="2023-05-14T00:54:25 BST" name="GridLearningChrome" finished-at="2023-05-14T00:54:39 BST" duration-ms="13976" status="PASS">
+    <test started-at="2023-05-16T02:24:46 BST" name="Default test" finished-at="2023-05-16T02:24:46 BST" duration-ms="361">
+      <class name="read.excel.data.learning.ExcelDataproviderLearning">
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:read.excel.data.learning.ExcelDataproviderLearning@350aac89]" started-at="2023-05-16T02:24:46 BST" name="getData" data-provider="driveTest" finished-at="2023-05-16T02:24:46 BST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GridLearningChrome -->
-      </class> <!-- selenium.grid.learning.SeleniumGridLearning -->
-      <class name="selenium.grid.learning.SeleniumGridLearningAnotherNode">
-        <test-method signature="GridLearningFirefox()[pri:0, instance:selenium.grid.learning.SeleniumGridLearningAnotherNode@663c9e7a]" started-at="2023-05-14T00:54:25 BST" name="GridLearningFirefox" finished-at="2023-05-14T00:54:43 BST" duration-ms="18303" status="PASS">
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:read.excel.data.learning.ExcelDataproviderLearning@350aac89]" started-at="2023-05-16T02:24:46 BST" name="getData" data-provider="driveTest" finished-at="2023-05-16T02:24:46 BST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bye]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[message]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[143]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GridLearningFirefox -->
-      </class> <!-- selenium.grid.learning.SeleniumGridLearningAnotherNode -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getData -->
+        <test-method signature="getData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:read.excel.data.learning.ExcelDataproviderLearning@350aac89]" started-at="2023-05-16T02:24:46 BST" name="getData" data-provider="driveTest" finished-at="2023-05-16T02:24:46 BST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[solo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[call]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[453]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+      </class> <!-- read.excel.data.learning.ExcelDataproviderLearning -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

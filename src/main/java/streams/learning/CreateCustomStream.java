@@ -19,13 +19,13 @@ public class CreateCustomStream {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
 		List<WebElement> list = driver.findElements(By.xpath("//tr/td[1]"));
-		List<String> price = list.stream().filter(s -> s.getText().contains("Rice"))
-				.map(s -> getItemPrice(s)).collect(Collectors.toList());
+		List<String> price = list.stream().filter(s -> s.getText().contains("Rice")).map(s -> getItemPrice(s))
+				.collect(Collectors.toList());
 		price.stream().forEach(a -> System.out.println("Price of the rice Item is: " + a));
 	}
 
 	private static String getItemPrice(WebElement a) {
-		// TODO Auto-generated method stub
+
 		String priceItem = a.findElement(By.xpath("following-sibling::td[1]")).getText();
 
 		return priceItem;
