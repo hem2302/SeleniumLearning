@@ -1,7 +1,6 @@
 package streams.learning;
 
 import java.util.ArrayList;
-import java.util.stream.Stream;
 
 public class StreamsLearningGettingCount {
 	public static void main(String[] args) {

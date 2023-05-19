@@ -1,8 +1,6 @@
 package streams.learning;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class StreamsLearningPrintAllNamesPresentInList {
 	public static void main(String[] args) {
